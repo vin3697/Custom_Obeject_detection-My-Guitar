@@ -4,7 +4,14 @@ I have used this youtube video for my reference -> https://www.youtube.com/watch
 
 I have trained a model to detect the object(which is guitar in my case) with help of YOLOv5 configration model.
 
-My model is pretty weak as I have given less test images due to which the accuracy of predcition/detection of guitar in image is pretty low.
+# My model is pretty weak as I have given less test images due to which the accuracy of predcition/detection of guitar in image is pretty low.
+
+# Also in my model overfitting has been occured due to high epochs, as it is not able to detect a guitar which has different features other than my guitar.
+Example : 
+
+This image is not detected by my model.
+
+![test](https://user-images.githubusercontent.com/92587549/140667240-dedca69a-a569-43ac-b227-fa6249ba0f49.jpg)
 
 It can be improved by giving a much more labelled images.
 
